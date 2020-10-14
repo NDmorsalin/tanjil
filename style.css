@@ -1,0 +1,182 @@
+*{
+   padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+body{
+    width: 1120px;
+}
+.main-header{
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.overly{
+   background-color: rgba(0,0,0,0.5);
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.nav-bar{
+    background-color: rgba(255,0,0,0.5);
+    padding:0 5%;
+    overflow: hidden;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.nav-area{
+    width: 70%;
+    float: left;
+}
+.nav{
+    float: right;
+}
+.logoa{
+    display: block;
+    padding: 12px;
+}
+.logo{
+    width: 70%;
+    height: 25px;
+}
+.nav ul li {
+    float: left
+}
+.nav ul li a{
+    display: block;
+    padding: 18px;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav ul li a:hover{
+    background-color: rgba(255,0,0,1);
+}
+#typed{
+    width: 100%;
+    height: 350px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 350px;
+}
+.aboutSection{
+    width: 90%;
+    margin: 50px auto;
+}
+.aboutSection::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.profilePic{
+    width: 22%;
+    height: 200px;
+    float: left;
+    
+    }
+.profileTxt{
+    width: 78%;
+    height: 200px;
+    float: left;
+}
+.name{
+
+}
+.rank{
+    margin-bottom: 20px;
+    line-height: 1;
+}
+.aboutImg{
+    width: 200px;
+    height: 200px;
+    
+}
+.aboutImg::after{
+  content:'';
+  width: 50%;
+  height: 0px;
+  display: block;
+  margin: 40px auto;
+  background-color: red;
+box-shadow: 0px 10px 30px 5px rgba(0,0,0,0.8),
+            0px 10px 40px 5px rgba(0,0,0,0.6),
+            0px 10px 50px 5px rgba(0,0,0,0.4),
+            0px 10px 80px 10px rgba(0,0,0,0.5);
+
+}
+.myImg{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    border: 5px solid #ddd;
+    
+}
+.slideSection,.imgContainer{
+    width: 90%;
+    margin: 150px auto;
+}
+.slideSection::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.odd,.even{
+    margin: 50px 0;
+}
+.odd:first-child{
+    
+}
+.odd::after,.even::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.odd>.workImg{
+    width: 22%;
+    height: 200px;
+    padding-right:25px;
+   float: left;
+}
+.odd >.workImg>.WImg,.even>.workImg>.WImg{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.odd>.workTxt,.even>.workTxt{
+    width: 78%;
+    padding-top: 10px;
+    float: left;
+}
+.even>.workImg{
+    width: 22%;
+    height: 200px;
+    padding-left:25px;
+   float: right;
+}
+.imgslider{
+    width:100px;
+    height: 100px;
+}
+.photoFrm{
+    width: 100%;
+    height: 400p;
+    margin: 0 auto;
+}
+.pto{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
